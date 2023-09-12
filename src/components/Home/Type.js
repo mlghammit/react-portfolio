@@ -1,5 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import AnimatedLetters from "../AnimatedLetters";
 
 function Type() {
   return (
@@ -18,6 +19,7 @@ function Type() {
         html: true, // Allow rendering HTML tags inside Typewriter
       }}
     />
+  
   );
 }
 

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Home from "./components/Home/Home";
-import About from "./components/About/About";
 import {
   BrowserRouter as Router,
   Route,
@@ -31,7 +30,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
       </div>

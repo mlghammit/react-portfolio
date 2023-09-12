@@ -1,14 +1,19 @@
 .container-about-page {
   background-color: #022c43; /* Change background color */
-  margin-top: 10vh;
+  margin-top: 55vh;
+}
+
+.paragraphs {
+  margin-top: 100px;
 }
 
 
+
 .text-zone {
-  margin-bottom: 5vh;
+  margin-bottom: 30vh;
   width: 50%;
   margin-left: 2vw;
-  font-size: 35px;
+  font-size: 25px;
   
   color: #fff;
   
@@ -17,19 +22,18 @@
     font-size: 80px;
     color: #c770f0;
    
+    }
   }
-  
-}
+
 
 .headshot {
     width: 400px; /* Adjust this value based on your design */
     max-width: 400px; /* Prevent the image from becoming too large */
     padding-top: -100vh;
-    margin-top: -50vh;
-    margin-right: -80vh;
+    margin-top: -100vh;
     position: relative;
-
     overflow: hidden;
+    margin-right: -60vw;
   }
   
   
@@ -38,12 +42,13 @@
   .stage-cube-cont {
     width: 100%;
     height: 100%;
-    max-width: 20%;
-    padding-top: 29vw;
+    max-width: 40%;
+    padding-top: 22vw;
     position: absolute;
-    right: 17vw;
+    right: 0vw;
     overflow: hidden;
-    margin-top: -130vh;
+    margin-top: -150vh;
+
   }
   
   .cubespinner {

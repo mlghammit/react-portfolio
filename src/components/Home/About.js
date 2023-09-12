@@ -35,6 +35,7 @@ const About = () => {
               idx={15}
             />
           </h1>
+          <div className="paragraphs">
           <p>
             I'm a very ambitious Computer Science student currently looking for
             a summer internship, with the opportuninity to work with the newest
@@ -47,10 +48,11 @@ const About = () => {
             and my knowledge of the science
           </p>
           <p>
-            If I were to give you a snippit of who I am, I will work in any field 
+            If I were to give you a snippet of who I am, I will work in any field 
             that challenges me, I want to make the world better then I found in,
             with cracking some jokes along the way.
           </p>
+          </div>
         </div>
 
         <div>

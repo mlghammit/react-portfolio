@@ -1,3 +1,5 @@
+@import 'animate.css';
+
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -239,6 +241,8 @@ button:focus {
     transform: rotate(0deg);
   }
 }
+
+
 #tsparticles {
   position: fixed !important;
   background-repeat: no-repeat !important;
@@ -249,6 +253,19 @@ button:focus {
 
 .home-header {
   padding-top: 80px !important;
+
+
+}
+
+.short-header {
+  font-size: 4vw;
+  margin-left: 6vw;
+  margin-bottom: -9vw;
+  transform: translateY(-3vw);
+}
+
+.scrolling {
+  margin-left: 5.9vw;
 }
 
 .home-section {
@@ -281,14 +298,26 @@ button:focus {
   color: #cd5ff8;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .Typewriter__wrapper {
   font-size: 2.2em !important;
   font-weight: 600 !important;
-  
+  animation: fadeIn 10s;
 }
+
 .Typewriter__cursor {
   font-size: 2.4em !important;
+  animation: fadeIn 10s;
 }
+
 
 
 .sentence-1 {
@@ -470,7 +499,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: white !important;
+  color: #022c43 !important;
 }
 
 .tech-icons {
@@ -494,6 +523,11 @@ button:focus {
   }
 }
 
+.img-fluid {
+  animation: rotateIn 1s linear both;
+  animation-delay: .4s;
+  
+}
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;

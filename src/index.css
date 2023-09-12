@@ -4,6 +4,6 @@ body {
   color: #444;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #022c43;
+  background: #022c43 !important;
   display: block;
 }

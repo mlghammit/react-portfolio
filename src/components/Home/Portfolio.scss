@@ -1,37 +1,43 @@
-  .container.portfolio-page {  
 
-    margin-top: 15vw;
+///Make title fade in after a second
+// Expanded image width increase
 
-    transform: translateY(100px);
-    margin-bottom: 1vw;
-    background-color: #022c43;
-    max-width: 100%;
-    width: 150vw;
+.container.portfolio-page {
+  margin-top: 15vw;
+  transform: translateY(125px);
+  background-color: #022c43;
+  max-width: 90%;
+  height: 100vh;
 
-      h1.page-title {
-          margin-left: 100px;
-          margin-top: -360px;
-          color: #c770f0;
-          font-size: 100px;
-          background-color: #022c43;
-          max-width: 100%;
-          
-      }
+
+    h1.page-title {
+      margin-left: 100px;
+      margin-top: -360px;
+      color: #c770f0;
+      font-size: 100px;
+      background-color: #022c43;
+    
+    }
+
+
+  
+
   
       .images-container {
           display: flex;
           gap: 15px;
           flex-wrap: wrap;
           padding-bottom: 100px;
+          overflow: hidden !important;
+        
       }
   
       .image-box {
           position: relative;
           flex: 1 1 20%;
           height: 400px;
-          overflow: hidden;
+          overflow: hidden !important;
           border-radius: 10px;
-          max-width: calc(25% - 10px);
   
           .portfolio-image {
               position: absolute;
@@ -39,6 +45,7 @@
               width: 100%;
               height: 100%;
               object-fit: cover;
+              overflow: hidden !important;
           }
   
           .title {
@@ -48,6 +55,7 @@
               font-size: 24px;
               font-weight: 500;
               line-height: 24px;
+              overflow: hidden;
           }
   
           .description {
@@ -107,26 +115,27 @@
   
   
   .imageUrls {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 16px;
-      padding: 16px 0;
-    
-      img {
-        width: 100%;  
-        height: 100%;
-        object-fit: cover;
-        border-radius: 8px;
-        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
-      }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 16px 0;
+  
+    img {
+      width: 100%;  
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
     }
+  }
+
   
     .expandedImage {
       position: fixed !important;
-      max-width: 55%;
+      max-width: 60%;
       max-height: 90%;
-      top: -19vh;
-      left: 18vw;
+      top: -8vh;
+      left: 13.5vw;
       transform: translate(10vh, 30vh);
       background: rgba(255, 255, 255, 0.9);
       display: flex;
@@ -139,14 +148,14 @@
       border-radius: 10px;
       
       img {
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 60%;
+        max-height: auto;
         transform: translateY(0);
       }
     
       p {
         color:black !important;
-        font-size: 25px !important;
+        font-size: 20px !important;
         font-weight: bold !important;
         margin-top: 20px
       }
@@ -171,5 +180,3 @@
       background: rgba(255, 255, 255, 1);
     }
   }
-  
-  
