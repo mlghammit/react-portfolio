@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.4797688e.css",
-    "main.js": "/react-portfolio/static/js/main.f8a864fe.js",
+    "main.css": "/react-portfolio/static/css/main.e6c9299e.css",
+    "main.js": "/react-portfolio/static/js/main.c3d8df18.js",
     "static/js/415.22d1fb27.chunk.js": "/react-portfolio/static/js/415.22d1fb27.chunk.js",
     "static/js/787.0e6c9168.chunk.js": "/react-portfolio/static/js/787.0e6c9168.chunk.js",
     "static/media/text-base-pc-store.png": "/react-portfolio/static/media/text-base-pc-store.759653eb6f26dcab4006.png",
-    "static/media/sukrut_square.jpg": "/react-portfolio/static/media/sukrut_square.ed3f4d088c9dc1db4df6.jpg",
     "static/media/curious mind.png": "/react-portfolio/static/media/curious mind.84ff31f76c2961fdba18.png",
     "static/media/This Website.png": "/react-portfolio/static/media/This Website.2a6b30488afb63dd3895.png",
     "static/media/headshot.jpeg": "/react-portfolio/static/media/headshot.a2e9604c1842f85ce054.jpeg",
@@ -15,13 +14,13 @@
     "static/media/speak org.png": "/react-portfolio/static/media/speak org.aafbdecbef5dc32a4308.png",
     "static/media/pre.svg": "/react-portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.4797688e.css.map": "/react-portfolio/static/css/main.4797688e.css.map",
-    "main.f8a864fe.js.map": "/react-portfolio/static/js/main.f8a864fe.js.map",
+    "main.e6c9299e.css.map": "/react-portfolio/static/css/main.e6c9299e.css.map",
+    "main.c3d8df18.js.map": "/react-portfolio/static/js/main.c3d8df18.js.map",
     "415.22d1fb27.chunk.js.map": "/react-portfolio/static/js/415.22d1fb27.chunk.js.map",
     "787.0e6c9168.chunk.js.map": "/react-portfolio/static/js/787.0e6c9168.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4797688e.css",
-    "static/js/main.f8a864fe.js"
+    "static/css/main.e6c9299e.css",
+    "static/js/main.c3d8df18.js"
   ]
 }
