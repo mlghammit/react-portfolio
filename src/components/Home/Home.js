@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import About from "./About.js";
 import Portfolio from "./Portfolio.js"
 import Type from "./Type";
 import AnimatedLetters from "../AnimatedLetters";
+import Resume from "./Resume.js"
+import Contact from "./Contact.js"
 
 function Home() {
 
@@ -39,21 +41,13 @@ function Home() {
                 <strong className="main-name"> HAMZA KHAMISSA </strong>
   </h1> */}
 
-              <h1 className ="short-header" style={{padding: 50, textAlign: "left"}}>
-              <span className={letterClass}>H</span>
-              <span className={`${letterClass} _12`}>i&nbsp;</span>
-              <span className={`${letterClass} _13`}> t</span>
-              <span className={`${letterClass} _14`}>h</span>
-              <span className={`${letterClass} _15`}>e</span>
-              <span className={`${letterClass} _16`}>r</span>
-              <span className={`${letterClass} _17`}>e</span>
+              <h1 className ="short-header" style={{padding: 10, textAlign: "left"}}>
+              <span className={letterClass}>Hi there</span>
               <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               <br />
-              <span className={`${letterClass} _18`}>I</span>
-              <span className={`${letterClass} _19`}>'m&nbsp; </span>
-              <span className={`${letterClass} _20`}>H</span>
+              <span className={`${letterClass} _18`}>I'm H</span>
               <AnimatedLetters
                 letterClass={letterClass}
                 strArray={nameArray}
@@ -62,26 +56,28 @@ function Home() {
               <br />
             </h1>
 
-            <div className="scrolling" style={{ padding: 50, textAlign: "left"}}>
+            <div className="scrolling" style={{ padding: 10, textAlign: "left"}}>
             <Type />
             </div>
-
+          
             </Col>
             
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col  style={{ paddingBottom: 20}} className="img-fluid">
               <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
               />
             </Col>
+      
           </Row>
         </Container>
       </Container>
+      <Resume />
       <Portfolio />
       <About />
+      <Contact />
 
     </section>
   );

@@ -2,6 +2,33 @@
 ///Make title fade in after a second
 // Expanded image width increase
 
+@media (max-width: 426px) {
+  .page-title {
+    font-size: 90px !important;
+    padding-top: 100px;
+    margin-left: 10px !important;
+  }
+
+  .images-container {
+   height: 200%; 
+  }
+
+  .imageUrls {
+    height: 250px;
+  }
+
+  .expandedImage {
+    max-width: 1000px !important;
+    margin-left: -100px !important;
+
+
+    .p {
+      width: 500px !important;
+    }
+  }
+  }
+  
+
 .container.portfolio-page {
   margin-top: 15vw;
   transform: translateY(125px);

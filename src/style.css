@@ -1,5 +1,9 @@
 @import 'animate.css';
 
+@media (max-width: 425px) {
+
+}
+
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -72,6 +76,13 @@ button:focus {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(222, 130, 235, 0.911);
   border-radius: 12px;
+}
+
+
+
+
+.home-page::-webkit-scrollbar {
+width: 0.5em;
 }
 
 /* --------- */
@@ -251,6 +262,57 @@ button:focus {
   height: 100%;
 }
 
+@media (max-width: 426px) {
+  .heading {
+    font-size: 10px;
+    margin-left: 5
+  }
+
+  .heading-name {
+    font-size: 100px;
+  }
+
+  .home-about-section {
+    font-size: 1px;
+
+  }
+
+  .img-fluid {
+    width: 200px;
+    margin-top: -35vh;
+    height: 20%;
+    margin-left: 100px;
+  }
+
+  .large-flat-button {
+    margin-top: 50px;
+    width: 82%;
+    max-height: 20%;
+  }
+
+  .resume-container {
+    margin-top: -80px;
+    z-index: -999;
+    margin-left: 83px;
+    transform: translateY(-100px);
+    height: 80%;
+    max-width: 50%;
+  }
+
+  .short-header {
+    margin-top: -175px;
+    margin-right: -100px;
+    word-spacing: 2px;
+  }
+
+  .scrolling {
+    font-size: 10px;
+    margin-left: -140vw;
+    margin-top: 10px;
+
+  }
+}
+
 .home-header {
   padding-top: 80px !important;
 
@@ -307,7 +369,7 @@ button:focus {
   }
 }
 
-.Typewriter__wrapper {
+/* .Typewriter__wrapper {
   font-size: 2.2em !important;
   font-weight: 600 !important;
   animation: fadeIn 10s;
@@ -317,7 +379,7 @@ button:focus {
   font-size: 2.4em !important;
   animation: fadeIn 10s;
 }
-
+ */
 
 
 .sentence-1 {
@@ -341,7 +403,7 @@ button:focus {
 }
 
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
@@ -350,7 +412,7 @@ button:focus {
   .Typewriter__cursor {
     display: none !important;
   }
-}
+} */
 
 .myAvtar {
   justify-content: center !important;
@@ -445,49 +507,7 @@ button:focus {
   color: #700c86 !important;
 }
 
-/* --------- */
-/* Footer */
-/* --------- */
-.footer {
-  background-color: rgb(10, 4, 22);
-  bottom: 0 !important;
-  padding-top: 10px !important;
-  padding-bottom: 8px !important ;
-}
-.footer-copywright {
-  text-align: center !important;
-}
 
-.footer-body {
-  z-index: 1;
-  text-align: center !important;
-}
-
-@media (max-width: 767px) {
-  .footer-copywright {
-    text-align: center !important;
-  }
-
-  .footer-body {
-    text-align: center !important;
-  }
-}
-
-.footer h3 {
-  font-size: 1em;
-  color: white !important;
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
-}
-.footer-icons {
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
-  padding: 0 !important;
-}
-
-.blockquote-footer {
-  color: #a588c0 !important;
-}
 
 
 /* --------- */

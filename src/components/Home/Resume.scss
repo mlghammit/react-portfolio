@@ -1,3 +1,15 @@
+@media (max-width: 426px) {
+  .resume-container {
+    margin-bottom: -100px;
+  }
+}
+
+.resume-container {
+  margin-top: -15vh;
+  padding-bottom: 10vh;
+  z-index: -9999
+}
+
 .large-flat-button {
   color: #ffd700;
   font-size: 13px; // Increase the font size for a larger button
@@ -10,10 +22,12 @@
   background: 0 0;
   text-transform: uppercase;
   text-align: center;
-  max-width: 2vw; // Adjust the maximum width as needed
   display: inline-block;
-  margin-left: 0.5vw;
-  margin-top: 3.2vh;
+  margin-left: -27vw;
+  margin-top: -5vh !important;
+  z-index: 9999;
+  width: 35vw;
+  
   
   text-transform: uppercase;
   transition: all .3s;

@@ -1,3 +1,38 @@
+@media (max-width: 426px) {
+  .container-about-page {
+    margin-top: 100px !important;
+    transform: translateY(-160px) !important;
+  }
+
+  .text-zone {
+
+    font-size: 13px !important;
+    .title {
+      font-size: 90px !important;
+      max-width: 1000px !important;
+      width: 410px !important;
+    }
+    .paragraphs {
+      margin-top: 20px !important;
+      width: 80%;
+    }
+  }
+
+  .headshot {
+    width: 50% !important;
+    height: auto !important;
+    margin-left: -60px !important;
+    margin-bottom: -70px !important;
+  }
+
+  .stage-cube-cont {
+    max-width: 55% !important;
+    max-height: auto !important;
+    margin-right: -10px !important;
+    margin-top: -850px !important;
+  }
+}
+
 .container-about-page {
   background-color: #022c43; /* Change background color */
   margin-top: 55vh;
@@ -47,7 +82,7 @@
     position: absolute;
     right: 0vw;
     overflow: hidden;
-    margin-top: -150vh;
+    margin-top: -140vh;
 
   }
   

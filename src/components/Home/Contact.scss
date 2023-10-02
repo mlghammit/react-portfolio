@@ -1,5 +1,63 @@
+@media (max-width: 426px) {
+  .container-contact-page {
+    transform: translateY(-30vh) !important;
+  
+    .text-zone {
+      font-size: 12px;
+      margin-left: 51vw !important;
+      width: 46% !important;
+
+      .title {
+        margin-left: -50vw;
+      }
+    }
+  }
+
+  .Interviewing {
+    margin-top: -105vh !important;
+    opacity: 0;
+  }
+
+  .contact-form {
+    margin-left: -49vw;
+    margin-top: -48vh !important;
+  }
+}
+
+.container-contact-page {
+  margin-top: -20vh;
+
+  .text-zone {
+    margin-bottom: 30vh;
+    width: 50%;
+    margin-left: 2vw;
+    font-size: 25px;
+    line-height: 40px;
+    
+    color: #fff;
+    
+  
+    .title {
+      font-size: 80px;
+      color: #c770f0;
+      padding-bottom: 40px;
+     
+      }
+    }
+  
+}
+
+.Interviewing {
+  margin-top: -70vh;
+  margin-right: -105vw;
+  width: 70%;
+  height: auto;
+}
+
+
 .contact-form {
     width: 100%;
+    max-height: 20%;
     margin-top: 20px;
   
     ul {
@@ -70,16 +128,15 @@
       float: right;
       text-align: center;
       margin-right: 10px;
-      max-width: 20%;
+      max-width: 100%;
+      width: 98%;
     }
   }
   
   .map-wrap {
     background: rgba(8, 253, 216, 0.1);
-    width: 20%;
-    height: 115%;
-    margin-top: -3%;
-    max-width: 20%;
+    width: auto;
+    height: auto
   
   }
   
@@ -116,5 +173,3 @@
       }
     }
   }
-  
-  
