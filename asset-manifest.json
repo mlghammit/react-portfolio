@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.70755f43.css",
-    "main.js": "/react-portfolio/static/js/main.c3d8df18.js",
-    "static/js/415.22d1fb27.chunk.js": "/react-portfolio/static/js/415.22d1fb27.chunk.js",
-    "static/js/787.0e6c9168.chunk.js": "/react-portfolio/static/js/787.0e6c9168.chunk.js",
-    "static/media/text-base-pc-store.png": "/react-portfolio/static/media/text-base-pc-store.759653eb6f26dcab4006.png",
-    "static/media/curious mind.png": "/react-portfolio/static/media/curious mind.84ff31f76c2961fdba18.png",
-    "static/media/This Website.png": "/react-portfolio/static/media/This Website.2a6b30488afb63dd3895.png",
-    "static/media/headshot.jpeg": "/react-portfolio/static/media/headshot.a2e9604c1842f85ce054.jpeg",
-    "static/media/home-main.svg": "/react-portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
-    "static/media/shelley-website.png": "/react-portfolio/static/media/shelley-website.5a266f992c68f99d2565.png",
-    "static/media/Pathing-Algorithm.png": "/react-portfolio/static/media/Pathing-Algorithm.115695bce78db483e2ae.png",
-    "static/media/speak org.png": "/react-portfolio/static/media/speak org.aafbdecbef5dc32a4308.png",
-    "static/media/pre.svg": "/react-portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
-    "index.html": "/react-portfolio/index.html",
-    "main.70755f43.css.map": "/react-portfolio/static/css/main.70755f43.css.map",
-    "main.c3d8df18.js.map": "/react-portfolio/static/js/main.c3d8df18.js.map",
-    "415.22d1fb27.chunk.js.map": "/react-portfolio/static/js/415.22d1fb27.chunk.js.map",
-    "787.0e6c9168.chunk.js.map": "/react-portfolio/static/js/787.0e6c9168.chunk.js.map"
+    "main.css": "/static/css/main.db27b72e.css",
+    "main.js": "/static/js/main.4f8a8bdd.js",
+    "static/js/415.22d1fb27.chunk.js": "/static/js/415.22d1fb27.chunk.js",
+    "static/js/787.0e6c9168.chunk.js": "/static/js/787.0e6c9168.chunk.js",
+    "static/media/text-base-pc-store.png": "/static/media/text-base-pc-store.759653eb6f26dcab4006.png",
+    "static/media/speak org (1).png": "/static/media/speak org (1).02b634b8e409510cc37d.png",
+    "static/media/curious mind.png": "/static/media/curious mind.84ff31f76c2961fdba18.png",
+    "static/media/This Website.png": "/static/media/This Website.2a6b30488afb63dd3895.png",
+    "static/media/headshot.jpeg": "/static/media/headshot.a2e9604c1842f85ce054.jpeg",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/shelley-website.png": "/static/media/shelley-website.5a266f992c68f99d2565.png",
+    "static/media/Pathing-Algorithm.png": "/static/media/Pathing-Algorithm.115695bce78db483e2ae.png",
+    "static/media/speak org.png": "/static/media/speak org.aafbdecbef5dc32a4308.png",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.db27b72e.css.map": "/static/css/main.db27b72e.css.map",
+    "main.4f8a8bdd.js.map": "/static/js/main.4f8a8bdd.js.map",
+    "415.22d1fb27.chunk.js.map": "/static/js/415.22d1fb27.chunk.js.map",
+    "787.0e6c9168.chunk.js.map": "/static/js/787.0e6c9168.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70755f43.css",
-    "static/js/main.c3d8df18.js"
+    "static/css/main.db27b72e.css",
+    "static/js/main.4f8a8bdd.js"
   ]
 }
